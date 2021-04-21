@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>vbs script</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Set wshShell = wscript.CreateObject
+    <br>  
+    ("WScript.Shell")
+    <br>
+    do
+    <br>
+    wscript.sleep 100
+    <br>
+    wshshell.sendkeys "You are a fool."
+    <br>
+    loop
+    <br>
+    <br>
+    Save the file with .VBS extension from notepad. This is a harmless script, just log out and log back in to stop it. Powering off does NOT work.</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
